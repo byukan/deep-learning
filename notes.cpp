@@ -12,43 +12,6 @@ Stanford course on Tensorflow: http://web.stanford.edu/class/cs20si/syllabus.htm
 
 	conda create -n py36 python=3.6
 
-environment.yml
-
-# Create environment:
-# $ conda env create --force
-
-name: dl
-channels:
-  - conda-forge
-  - damianavila82
-dependencies:
-  - python = 3.6
-  - tensorflow >= 1.0
-  - keras >= 2.0
-  - pillow >= 4.0
-  - ipython
-  - jupyter
-  - anaconda
-  - matplotlib
-  - seaborn
-  - plotly
-  - numpy
-  - pandas
-  - scikit-learn
-  - scikit-image
-  - h5py
-  - requests
-  - setuptools
-  - pip
-  - pip:
-    - rise
-    - pygame
-    - hyperas
-    - pydot
-    - pydot-ng
-    - nbbrowserpdf
-    - ipy-table
-
     if u got the insecurerequest warning doing the conda create
 sudo pip install -U requests
 and then conda create step
